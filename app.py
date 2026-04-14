@@ -2,6 +2,7 @@ import streamlit as st
 import joblib
 import pandas as pd
 from MentalHealthAnalysis import TestDataCleaner
+from huggingface_hub import hf_hub_download
 
 # Load models
 # model = joblib.load('depression_prediction_stack.pkl')
