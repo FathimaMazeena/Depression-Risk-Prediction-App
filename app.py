@@ -3,6 +3,10 @@ import joblib
 import pandas as pd
 from MentalHealthAnalysis import TestDataCleaner
 from huggingface_hub import hf_hub_download
+import sys
+import os
+
+sys.path.append(os.getcwd())
 
 # Load models
 # model = joblib.load('depression_prediction_stack.pkl')
