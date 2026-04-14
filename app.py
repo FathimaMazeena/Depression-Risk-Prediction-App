@@ -4,9 +4,21 @@ import pandas as pd
 from MentalHealthAnalysis import TestDataCleaner
 
 # Load models
-model = joblib.load('depression_prediction_stack.pkl')
-scaler = joblib.load('scaler.pkl')
-encoder = joblib.load('encoder.pkl')
+# model = joblib.load('depression_prediction_stack.pkl')
+# scaler = joblib.load('scaler.pkl')
+# encoder = joblib.load('encoder.pkl')
+
+REPO_ID = "mazeena/depression-prediction-model"
+
+# Download files from Hugging Face
+model_path = hf_hub_download(repo_id=REPO_ID, filename="depression_prediction_stack.pkl")
+scaler_path = hf_hub_download(repo_id=REPO_ID, filename="scaler.pkl")
+encoder_path = hf_hub_download(repo_id=REPO_ID, filename="encoder.pkl")
+
+# Load models
+model = joblib.load(model_path)
+scaler = joblib.load(scaler_path)
+encoder = joblib.load(encoder_path)
 
 # Streamlit app title
 st.title("Mental Health Prediction App")
