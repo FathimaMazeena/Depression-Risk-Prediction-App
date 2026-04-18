@@ -253,9 +253,11 @@ This tool can be used for:
 ---
 
 ## 📅 Project Details
-Type: Personal Project 
+Type: Academic Project 
 
 Duration: Feb 2025 - Mar 2025
+
+Affiliation: Cardiff Metropolitan University
 
 ---
 ## 👩‍💻 Author
