@@ -65,6 +65,34 @@ Implemented and compared multiple models:
 
 ---
 
+## 📂 Dataset
+
+The model was trained using a dataset provided through a Kaggle machine learning competition on depression risk prediction. 
+
+The dataset contains anonymized survey responses covering:
+
+* Mental health indicators
+* Lifestyle habits
+* Academic/work stress factors
+* Socio-demographic attributes
+
+🔗 Kaggle Competition:
+https://www.kaggle.com/competitions/playground-series-s4e11/overview
+
+---
+
+🏆 Kaggle Competition Submission
+
+The trained stacking ensemble model was used to generate predictions for the Kaggle competition test dataset. These predictions were submitted to the leaderboard for evaluation.
+
+This process demonstrated:
+
+Model generalization on unseen data
+Real-world ML evaluation workflow (train → validate → submit)
+Practical deployment of a trained ML pipeline beyond local testing
+
+---
+
 ## 🧪 Tech Stack
 
 * **Frontend:** Streamlit
@@ -113,8 +141,8 @@ This avoids pushing large files to GitHub and ensures smooth deployment.
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/your-username/depression-risk-prediction-app.git
-cd depression-risk-prediction-app
+git clone https://github.com/FathimaMazeena/Depression-Risk-Prediction-App/
+cd Depression-Risk-Prediction-App
 ```
 
 ---
@@ -152,6 +180,8 @@ streamlit run app.py
 ├── requirements.txt
 ├── runtime.txt
 ├── README.md
+├── .gitignore
+├── .gitattributes
 ```
 
 ---
@@ -219,14 +249,25 @@ This tool can be used for:
 * Add probability score instead of binary output
 * Improve UI/UX design
 * Add user history tracking
-* Deploy API backend
 
 ---
 
+## 📅 Project Details
+Type: Personal Project 
+
+Duration: Feb 2025 - Mar 2025
+
+---
 ## 👩‍💻 Author
 
 **Mazeena Cader**
+
 Software Engineering Graduate | MERN Stack Developer | ML Enthusiast
+
+---
+
+## 📄 License
+This project is for educational purposes.
 
 ---
 
@@ -235,3 +276,6 @@ Software Engineering Graduate | MERN Stack Developer | ML Enthusiast
 Give this project a ⭐ on GitHub!
 
 ---
+
+
+
