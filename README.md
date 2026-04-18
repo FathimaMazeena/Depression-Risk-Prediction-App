@@ -13,6 +13,12 @@ It provides a **real-time, user-friendly interface** for non-technical users to 
 
 ---
 
+## 🎥 Demo
+
+![App Demo](./demo/demo.gif)
+
+---
+
 ## 🚀 Key Features
 
 * 🔍 Real-time depression risk prediction
